@@ -1,0 +1,280 @@
+body{
+    margin:0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+h2{
+    font-size: 40px;
+    color: #2d3436;
+}
+section{
+    min-height: 650px;
+    padding-bottom: 20px;
+    overflow: hidden;
+}
+p{
+    color: gray;
+    margin-bottom: 40px;
+}
+
+.anchor{
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    background-image: linear-gradient(45deg, #f8659e, #ff1973);
+    color: white;
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+/* Instroduce Section Start */
+
+.name-highliter{
+    color: #ff1973;
+}
+.introduce-section{
+    background-image: url("images/header-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.half-width{
+    width: 40%;
+    float:left;
+}
+
+.img-area{
+    margin-left:0;
+    margin-left: 6%;
+    padding-left: 2%;
+}
+.half-width img{
+    width: 100%;
+}
+
+.hello-area{
+    margin-top: 120px;
+    margin-left: 8%;
+    padding-left: 4%;
+}
+
+
+
+/* Instroduce Section Close */
+
+
+/* Biography Section Start */
+
+.biography-section{
+    background-image: url("images/biography-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.biography{
+    margin-top: 170px;
+    margin-left: 0px;
+    padding: 0px;
+}
+#dream_img{
+    margin-top: 100px
+}
+
+/* Biography Section close */
+
+/* Latest Work Section start */
+
+.latest-work{
+    background-image: url("images/latest-work-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: -100px;
+}
+.latest-work h2{
+    margin-top: 100px;
+    margin-bottom: 80px;
+    text-align: center;
+}
+.one-third{
+    width: 22%;
+    float: left;
+    margin-left: 4%;
+    padding-left: 1%;
+}
+.work-area{
+    margin-left: 11%;
+}
+.one-third img{
+    width: 100%;
+    cursor: pointer;
+}
+
+/* Latest Work Section close */
+
+/* Testimonail Section Start */
+
+.full-width h2 {
+	color: #333;
+	text-align: center;
+	text-transform: capitalize;
+	font-family: "Roboto", sans-serif;
+	position: relative;
+	margin: 25px 0 100px;
+}
+.carousel {
+	max-width: 650px;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+	padding-bottom: 50px;
+}
+.carousel .item {
+	color: #999;
+	font-size: 14px;
+    text-align: center;
+	overflow: hidden;
+    min-height: 340px;
+}
+.carousel .item a {
+	color: #eb7245;
+}
+
+.carousel .img-box {
+	width: 145px;
+	height: 145px;
+	margin: 0 auto;
+	border-radius: 50%;
+}
+.carousel .img-box img {
+	width: 100%;
+	height: 100%;
+    display: block;
+    border: 2px solid #ff1973; 
+	border-radius: 50%;
+}
+.carousel .testimonial {	
+	padding: 30px 0 10px;
+}
+.carousel .overview {	
+	text-align: center;
+	padding-bottom: 5px;
+}
+.carousel .overview b {
+	color: #333;
+	font-size: 15px;
+	text-transform: uppercase;
+	display: block;	
+	padding-bottom: 5px;
+}
+.carousel .star-rating i {
+	font-size: 18px;
+	color: #ffdc12;
+}
+.carousel .carousel-control {
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+    background: #999;
+    text-shadow: none;
+	top: 4px;
+}
+.carousel-control i {
+	font-size: 20px;
+	margin-right: 2px;
+}
+.carousel-control.left {
+	left: auto;
+	right: 40px;
+}
+.carousel-control.right i {
+	margin-right: -2px;
+}
+.carousel .carousel-indicators {
+	bottom: 15px;
+}
+.carousel-indicators li, .carousel-indicators li.active {
+	width: 11px;
+	height: 11px;
+	margin: 1px 5px;
+	border-radius: 50%;
+}
+.carousel-indicators li {	
+	background: #e2e2e2;
+	border-color: transparent;
+}
+.carousel-indicators li.active {
+	border: none;
+	background: #888;		
+}
+
+.message{
+    max-width: 580px;
+    max-height: 160px;
+    color: white;
+    background-image: linear-gradient(45deg, #f8659e, #ff1973);
+    padding: 20px 40px;
+    text-align: center;
+    border-radius: 8px;
+    margin: 0 auto;
+    cursor: pointer;
+
+}
+
+.message p{
+    color: white;
+    margin-top: 35px;
+    margin-bottom: 0px;
+}
+.message h3{
+    margin-top: 0px
+}
+.message h3 a{
+    color: white;
+    text-decoration: none;
+}
+
+/* Testimonial Section Close */
+
+
+/* Footer Section Start */
+.footer-section{
+    background-image: url("images/footer-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 80px;
+}
+.col-md-6{
+    width: 50%;
+    margin-left: 25%;
+}
+.col-md-6 button {
+    border:0px;
+}
+.col-md-6 h2{
+    text-align:center;
+    margin-bottom: 50px;
+}
+
+form input, textarea{
+    border: 1px solid #ff1973 !important;
+}
+.footer-text{
+    width: 100%;
+    margin-top: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 5px 10px;
+    text-align: center;
+}
+.footer-text p{
+    margin-bottom: 0;
+    font-size: 16px;
+}
+.footer-text p a{
+    text-decoration: none;
+    color: #ff1973;
+}
+
+/* Footer Section Close */
