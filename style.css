@@ -12,7 +12,7 @@ h2{
     color: #2d3436;
 }
 section{
-    min-height: 650px;
+    min-height: 600px;
     padding-bottom: 20px;
     overflow: hidden;
 }
@@ -60,8 +60,6 @@ p{
     margin-left: 8%;
     padding-left: 4%;
 }
-
-
 
 /* Instroduce Section Close */
 
@@ -278,3 +276,82 @@ form input, textarea{
 }
 
 /* Footer Section Close */
+
+/* Responsive Design Start */
+
+@media all and (max-width: 900px){
+    .half-width{
+        width: 80%;
+        text-align:center;
+    }
+    .hello-area{
+        margin-top: 20px;
+    }
+    .biography{
+        margin-left: 8%;
+        margin-top: 40px;
+        text-align: center;
+    }
+    .latest-work{
+        margin-bottom: -180px;
+    }
+
+}
+
+@media all and (max-width: 730px){
+    .one-third{
+        width: 80%;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 40px;
+    }
+    .latest-work{
+        padding: 20px;
+        margin-bottom:0px;
+    }
+    .col-md-6 {
+        width: 70%;
+        margin-left: 15%;
+    }
+    .latest-work h2{
+        margin-top: 40px;
+        margin-bottom: 80px;
+        text-align: center;
+    }
+    .footer-section {
+        margin-top: 20px;
+    }
+    .col-md-6 h2{
+        text-align:center;
+        margin-top: 0px;
+        margin-bottom: 50px;
+    }
+    .message{
+        margin-left: 7%;
+        margin-right: 2%;
+    
+    }
+    
+}
+
+@media all and (max-width: 670px){
+    .message{
+        max-width: 580px;
+        max-height: 160px;
+        padding: 10px 20px;
+        margin: 0 auto;
+    }
+}
+@media all and (max-width: 428px){
+    h1{
+        font-size: 40px;
+    }
+    h2{
+        font-size:30px;
+    }
+    h3{
+        font-size:20px;
+    }
+}
+
+/* Responsive Design Close */
